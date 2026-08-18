@@ -123,12 +123,21 @@ const homeAndGuide = pairedPages([
     sourceAliases: ['docs/user/guide'],
   },
   {
+    source: 'docs/user/guide/getting-started.md',
+    route: 'guide/getting-started.md',
+    label: { root: '新手上手指南', en: 'Getting started' },
+    sidebar: { root: 'zh-guide', en: 'en-guide' },
+    section: { root: '入门', en: 'Guide' },
+    order: 2,
+  },
+
+  {
     source: 'docs/user/guide/providers.md',
     route: 'guide/providers.md',
     label: { root: '配置模型', en: 'Configure models' },
     sidebar: { root: 'zh-guide', en: 'en-guide' },
     section: { root: '入门', en: 'Guide' },
-    order: 2,
+    order: 3,
   },
   {
     source: 'docs/user/guide/python-sdk.md',
